@@ -6,10 +6,7 @@ const path = require('path');
 const PORT = process.env.PORT || 3001;
 
 // npm package that gives each note a unique ID when it's saved
-const {
-    v4: uuidv4
-
-} = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 
 // db.json used to store/retrieve notes using fs module
 const notes = require('./db/db.json');
@@ -42,6 +39,8 @@ app.get('/api/notes', (req, res) => {
     //send notes to client
     return res.json(notes);
 });
+
+
 // API route 2) POST/api/notes receives new note to save on the request body, adds it to db.json, returns to client
 app.post('/api/notes', (req, res) => {
     // Log that a POST request was received
@@ -67,7 +66,7 @@ app.post('/api/notes', (req, res) => {
         notes.push(newNote);
 
         //write the string to db
-        fs.writeFile('./db/db.json', JSON.stringify(notes, null, 4), (err) => {
+        fs.writeFile('./db/db.json', JSON.stringify(notes, null, 2), (err) => {
             err ? console.error(err) : console.log(`Note for ${newNote.title} has been written to JSON file`);
         });
     }
