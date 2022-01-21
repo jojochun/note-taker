@@ -7,23 +7,19 @@ This is a full-stack web application that creates, saves, and deletes your notes
 1. Install node.js
 2. Clone or download the source code from GitHub to your local machine
 3. Navigate to the root of the downloaded code
-4. Open terminal and on command line enter:
+4. To install required dependencies (npm uuid), open terminal and on command line enter:
 
 ```shell
 npm install
 ```
 
-to install required dependencies (npm uuid)
-
-5. On command line enter:
+5. To start the server, on the command line enter:
 
 ```shell
 npm start
 ```
 
-to start the server
-
-6. Enter http://localhost:3001 in the address bar of your web browser to use the app.
+6. To connect to the server, enter http://localhost:3001 in the address bar of your web browser
 
 You can also via the Heroku site:
 https://polar-forest-76065.herokuapp.com/
@@ -43,7 +39,7 @@ Heroku
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution
 
