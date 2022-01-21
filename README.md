@@ -21,8 +21,11 @@ npm start
 
 6. To connect to the server, enter http://localhost:3001 in the address bar of your web browser
 
-- You can also via the Heroku site:
-  https://polar-forest-76065.herokuapp.com/
+## Usage (Heroku)
+
+You can also use the application via the Heroku site:
+
+https://polar-forest-76065.herokuapp.com/
 
 ## Built With
 
