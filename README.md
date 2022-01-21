@@ -1,6 +1,6 @@
 # NOTE-TAKER
 
-This is a full-stack web application that creates, saves, and deletes your notes. The app is using Express.js back end and will save and retrieve note data from a JSON file.
+This is a full-stack web application that creates, saves, and deletes your notes. The app uses an Express.js back end and will save and retrieve data from a JSON file.
 
 ## Installation and Usage
 
@@ -21,20 +21,25 @@ npm start
 
 6. To connect to the server, enter http://localhost:3001 in the address bar of your web browser
 
-You can also via the Heroku site:
-https://polar-forest-76065.herokuapp.com/
+- You can also via the Heroku site:
+  https://polar-forest-76065.herokuapp.com/
 
 ## Built With
 
 HTML
+
 CSS
+
 Javascript
 
 ## Technologies
 
 Node.js
+
 Express.js
+
 npm (uuid)
+
 Heroku
 
 ## License
