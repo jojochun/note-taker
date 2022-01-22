@@ -1,1 +1,14 @@
-[]
+{
+  "notesArray": [
+    {
+      "title": "fix car",
+      "text": "battery",
+      "id": "8f1748d3-4cd6-4768-aa17-2b36205b2c1d"
+    },
+    {
+      "title": "clean room",
+      "text": "bed",
+      "id": "a77559f5-cbe0-439f-bb35-067fea6a1f3c"
+    }
+  ]
+}
